@@ -76,8 +76,6 @@ private fun Greetings(
     }
 }
 
-private const val s = "Show less"
-
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     var expanded by remember { mutableStateOf(false) }
